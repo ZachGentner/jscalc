@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JSCalc</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <div id="display">0</div>
+                <div id="clear" onclick="clearDisplay()">Clear</div>
+            </tr>
+            <tr>
+                <th id="seven" onclick="btnPress(7)">7</th>
+                <th id="eight" onclick="btnPress(8)">8</th>
+                <th id="nine" onclick="btnPress(9)">9</th>
+                <th id="divide" onclick="btnPress('÷')">÷</th>
+            </tr>
+            <tr>
+                <th id="four" onclick="btnPress(4)">4</th>
+                <th id="five" onclick="btnPress(5)">5</th>
+                <th id="six" onclick="btnPress(6)">6</th>
+                <th id="multiply" onclick="btnPress('*')">×</th>
+            </tr>
+            <tr>
+                <th id="one" onclick="btnPress(1)">1</th>
+                <th id="two" onclick="btnPress(2)">2</th>
+                <th id="three" onclick="btnPress(3)">3</th>
+                <th id="subtract" onclick="btnPress('-')">−</th>
+            </tr>
+            <tr>
+                <th id="zero" onclick="btnPress(0)">0</th>
+                <th id="decimal" onclick="btnPress('.')">.</th>
+                <th id="equals" onclick="evaluateExpression()">=</th>
+                <th id="add" onclick="btnPress('+')">+</th>
+            </tr>
+        </table>
+
+        <h1 id="expression"></h1>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>

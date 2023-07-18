@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    border: 1px solid black;
+}
+
+table {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+th {
+    height: 50px;
+    width: 50px;
+    font-size: x-large;
+    border-radius: 100%;
+    border:1px solid black;
+    background-color: darkorange;
+    color: white;
+}
+
+th:hover {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+#clear {
+    background-color: orange;
+    width: 240px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+#display {
+padding: 20px;
+border: solid 1px black;
+width: 210px;
+}
+
+#expression {
+    width: 1000px;
+    height: 100px;
+}
