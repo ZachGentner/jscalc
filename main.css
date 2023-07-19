@@ -35,6 +35,15 @@ th:hover {
     border: solid 1px black;
 }
 
+#cancel {
+    background-color: red;
+    color: white;
+    width: 240px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
 #display {
 padding: 20px;
 border: solid 1px black;
