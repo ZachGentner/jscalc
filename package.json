@@ -1,0 +1,18 @@
+{
+  "name": "jscalc",
+  "version": "1.0.0",
+  "description": "Basic JavaScript calculator using vanilla JS",
+  "main": "main.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZachGentner/jscalc.git"
+  },
+  "author": "Zach Gentner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZachGentner/jscalc/issues"
+  },
+  "homepage": "https://github.com/ZachGentner/jscalc#readme"
+}

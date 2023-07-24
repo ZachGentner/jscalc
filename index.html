@@ -9,38 +9,44 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <table>
-            <tr>
-                <div id="display">0</div>
-                <div id="clear" onclick="clearDisplay()">Clear</div>
-            </tr>
-            <tr>
-                <th id="seven" onclick="btnPress(7)">7</th>
-                <th id="eight" onclick="btnPress(8)">8</th>
-                <th id="nine" onclick="btnPress(9)">9</th>
-                <th id="divide" onclick="btnPress('÷')">÷</th>
-            </tr>
-            <tr>
-                <th id="four" onclick="btnPress(4)">4</th>
-                <th id="five" onclick="btnPress(5)">5</th>
-                <th id="six" onclick="btnPress(6)">6</th>
-                <th id="multiply" onclick="btnPress('*')">×</th>
-            </tr>
-            <tr>
-                <th id="one" onclick="btnPress(1)">1</th>
-                <th id="two" onclick="btnPress(2)">2</th>
-                <th id="three" onclick="btnPress(3)">3</th>
-                <th id="subtract" onclick="btnPress('-')">−</th>
-            </tr>
-            <tr>
-                <th id="zero" onclick="btnPress(0)">0</th>
-                <th id="decimal" onclick="btnPress('.')">.</th>
-                <th id="equals" onclick="evaluateExpression()">=</th>
-                <th id="add" onclick="btnPress('+')">+</th>
-            </tr>
-        </table>
-        <div id="cancel" onclick="cancelExpression()">Cancel</div>
-        <h1 id="expression"></h1>
+        <div class="container">
+            <table>
+                <tr>
+                    <div id="display">0</div>
+                </tr>
+                <tr>
+                    <th id="cancel" onclick="cancelExpression()">AC</th>
+                    <th id="clear" onclick="clearDisplay()">C</th>
+                    <th id="percent" onclick="btnPress('%')">%</th>
+                    <th id="divide" onclick="btnPress('÷')">÷</th>
+                </tr>
+                <tr>
+                    <th id="seven" onclick="btnPress(7)">7</th>
+                    <th id="eight" onclick="btnPress(8)">8</th>
+                    <th id="nine" onclick="btnPress(9)">9</th>
+                    <th id="multiply" onclick="btnPress('*')">×</th>
+                </tr>
+                <tr>
+                    <th id="four" onclick="btnPress(4)">4</th>
+                    <th id="five" onclick="btnPress(5)">5</th>
+                    <th id="six" onclick="btnPress(6)">6</th>
+                    <th id="subtract" onclick="btnPress('-')">−</th>
+                </tr>
+                <tr>
+                    <th id="one" onclick="btnPress(1)">1</th>
+                    <th id="two" onclick="btnPress(2)">2</th>
+                    <th id="three" onclick="btnPress(3)">3</th>
+                    <th id="add" onclick="btnPress('+')">+</th>
+                </tr>
+                <tr>
+                    <th id="zero" onclick="btnPress(0)">0</th>
+                    <th id="decimal" onclick="btnPress('.')">.</th>
+                    <th id="equals" onclick="backspace()"><</th>
+                    <th id="add" onclick="btnPress('=')">=</th>
+                </tr>
+            </table>
+  
+        </div>
 
 
         <script src="main.js"></script>
